@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_airport_page_google_reviews",
+  "info": {
+    "displayName": "GoogleReviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "primaryText": {
+      "type": "text",
+      "required": true
+    },
+    "reviewCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.ratings-card"
+    },
+    "revienwCount": {
+      "type": "integer",
+      "required": true
+    },
+    "reviewNumber": {
+      "type": "decimal",
+      "required": true
+    },
+    "primaryButton": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryButton": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

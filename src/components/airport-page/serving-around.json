@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_serving_around",
+  "info": {
+    "displayName": "ServingAround",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.location-card"
+    },
+    "finePrint": {
+      "type": "string"
+    }
+  }
+}

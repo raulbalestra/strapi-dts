@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_faq_asked_questions",
+  "info": {
+    "displayName": "AskedQuestion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq-question.faq-question"
+    }
+  }
+}

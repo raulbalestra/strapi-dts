@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "one_rides",
+  "info": {
+    "singularName": "one-ride",
+    "pluralName": "one-rides",
+    "displayName": "OneRide",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "academyHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "one-ride.academy-hero"
+    },
+    "ourCommitment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "one-ride.our-commitment"
+    },
+    "makeDifference": {
+      "type": "component",
+      "repeatable": false,
+      "component": "one-ride.make-diffrence"
+    },
+    "oneTree": {
+      "type": "component",
+      "repeatable": false,
+      "component": "one-ride.one-tree"
+    },
+    "eachRide": {
+      "type": "component",
+      "repeatable": false,
+      "component": "one-ride.each-ride"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

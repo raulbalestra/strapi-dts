@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_details",
+  "info": {
+    "singularName": "blog-detail",
+    "pluralName": "blog-details",
+    "displayName": "BlogDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "relatedArticle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-page.recent-article"
+    },
+    "signupLetter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-page.signup-letter"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    }
+  }
+}

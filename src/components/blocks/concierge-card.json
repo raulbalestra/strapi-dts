@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_concierge_cards",
+  "info": {
+    "displayName": "ConciergeCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "concierge_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::concierge-card.concierge-card"
+    }
+  }
+}

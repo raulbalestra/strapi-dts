@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_career_open_roles",
+  "info": {
+    "displayName": "OpenRoles"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "selectLabel": {
+      "type": "string"
+    }
+  }
+}

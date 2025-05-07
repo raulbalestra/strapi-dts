@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_supplier_section_supplier_heroes",
+  "info": {
+    "displayName": "SupplierHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "cyclicText": {
+      "displayName": "CyclicText",
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "barCardProps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "informationCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.information-card"
+    }
+  }
+}

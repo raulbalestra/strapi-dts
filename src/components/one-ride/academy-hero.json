@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_luxy_academy_academy_heroes",
+  "info": {
+    "displayName": "OneRideHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

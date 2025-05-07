@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_travel_agent_use_luxies",
+  "info": {
+    "displayName": "UseLuxy"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

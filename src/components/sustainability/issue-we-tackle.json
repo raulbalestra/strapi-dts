@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sustainability_issue_we_tackles",
+  "info": {
+    "displayName": "IssueWeTackle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-card"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_luxy_academy_make_diffrences",
+  "info": {
+    "displayName": "MakeDiffrence",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.img-txt-card"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_travel_agent_earn_mores",
+  "info": {
+    "displayName": "JoinAgentProgram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "reviewCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.ratings-card"
+    }
+  }
+}

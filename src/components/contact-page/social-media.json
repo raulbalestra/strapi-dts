@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_contact_page_social_medias",
+  "info": {
+    "displayName": "SocialMedia"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    }
+  }
+}

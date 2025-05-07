@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "luxy_academies",
+  "info": {
+    "singularName": "luxy-academy",
+    "pluralName": "luxy-academies",
+    "displayName": "LuxyAcademy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "academyHero": {
+      "displayName": "HeroAcademy",
+      "type": "component",
+      "repeatable": false,
+      "component": "luxy-academy.hero-academy"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

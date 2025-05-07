@@ -1,0 +1,116 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ctas",
+  "info": {
+    "singularName": "cta",
+    "pluralName": "ctas",
+    "displayName": "CTA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ussage": {
+      "type": "enumeration",
+      "enum": [
+        "supplier",
+        "corporate",
+        "travel-agent",
+        "common"
+      ],
+      "default": "common"
+    },
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": [
+        "CheckMarkIcon",
+        "DirectionIcon",
+        "ArrowUpIcon",
+        "AvailabilityIcon",
+        "HeadsetIcon",
+        "FeesIcon",
+        "CabIcon",
+        "AppIcon",
+        "UserTypeIcon",
+        "CustomerServiceIcon",
+        "PlayIcon",
+        "DriverStatusIcon",
+        "RideConfirmedIcon",
+        "RideBookedIcon",
+        "GreenTechnologyIcon",
+        "AffordableIcon",
+        "PickUpLocationIcon",
+        "EmployeeISatisfactionIcon",
+        "DropOffIcon",
+        "ScheduleRidesIcon",
+        "PlaceMarkerIcon",
+        "PassengerIExperienceIcon",
+        "EasyBookingIcon",
+        "CabFillIcon",
+        "LicenseIcon",
+        "RatingStarIcon",
+        "LuxyLogomark",
+        "EmptyLegsIcon",
+        "CarsOnRoadIcon",
+        "SafetyCheckIcon",
+        "CentralizedIPlatformIcon",
+        "TimeEfficientIcon",
+        "RouteIcon",
+        "RidePlanningIcon",
+        "ReturnMatchingIcon",
+        "TrainingIcon",
+        "ArrowDownRightIcon",
+        "EmailIcon",
+        "ContactNumberIcon",
+        "AddressIcon",
+        "TwitterLogoIcon",
+        "InstagramLogoIcon",
+        "LinkedinLogoIcon",
+        "FacebookIcon",
+        "AppStoreLogoIcon",
+        "PlayStoreLogoIcon",
+        "GoogleLogoIcon",
+        "TeamSupportIcon",
+        "TrustpilotLogoIcon",
+        "TrainingManagersIcon",
+        "SearchIcon",
+        "HomeIcon",
+        "ArrowDownIcon",
+        "OurVisionIcon",
+        "OpenIcon",
+        "OnBoeardIcon",
+        "DropdrownIcon",
+        "CloseIcon",
+        "EmptyTransitIcon",
+        "DrivesEmptyIcon",
+        "VehicleDrivenIcon",
+        "MilesDrivenIcon",
+        "GasolineConsumedIcon",
+        "DieselConsumedIcon",
+        "TankerTrucksIcon",
+        "WorkStationIcon",
+        "OurMissionIcon",
+        "CompensationIcon",
+        "OurValuesIcon",
+        "LeaveIcon",
+        "DepartureIcon"
+      ]
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "a"
+      ],
+      "default": "a"
+    }
+  }
+}

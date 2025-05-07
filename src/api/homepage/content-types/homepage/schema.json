@@ -1,0 +1,92 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.home-hero"
+    },
+    "whatWeDo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.what-we-do"
+    },
+    "ourVerticals": {
+      "displayName": "OurVerticals",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-verticals"
+    },
+    "ourServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-services"
+    },
+    "whyLuxy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.why-luxy"
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.our-technology"
+    },
+    "concierge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.concierge"
+    },
+    "appPortal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.driver-app-and-portal"
+    },
+    "luxyApi": {
+      "displayName": "Luxy Api",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.luxy-api"
+    },
+    "testimonialReview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.testimonials-reviews"
+    },
+    "savingEarth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.saving-earth"
+    },
+    "customerExperience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.customer-experience"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+
+    }
+  }
+}

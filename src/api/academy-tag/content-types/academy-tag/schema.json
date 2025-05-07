@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_tags",
+  "info": {
+    "singularName": "academy-tag",
+    "pluralName": "academy-tags",
+    "displayName": "AcademyTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "href": {
+      "type": "text"
+    },
+    "label": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "button"
+      ],
+      "default": "a"
+    }
+  }
+}

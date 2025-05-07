@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_driver_app_and_portals",
+  "info": {
+    "displayName": "DriverAppPortal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.app-and-portal-card"
+    }
+  }
+}

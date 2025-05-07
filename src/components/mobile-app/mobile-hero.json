@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_mobile_app_mobile_heroes",
+  "info": {
+    "displayName": "MobileHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "desktopImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

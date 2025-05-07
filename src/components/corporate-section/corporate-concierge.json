@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_corporate_section_corporate_concierges",
+  "info": {
+    "displayName": "CorporateConcierge"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-text-card"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ctas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    }
+  }
+}

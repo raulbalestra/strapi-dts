@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_corporate_section_corporate_heroes",
+  "info": {
+    "displayName": "CorporateHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "cyclicText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.icon-text"
+    },
+    "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

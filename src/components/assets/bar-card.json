@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_assets_bar_cards",
+  "info": {
+    "displayName": "barCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "colorText1": {
+      "type": "string"
+    },
+    "colorText2": {
+      "type": "string"
+    }
+  }
+}

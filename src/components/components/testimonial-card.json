@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_components_testimonial_cards",
+  "info": {
+    "displayName": "TestimonialCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "stat": {
+      "type": "string"
+    },
+    "cardType": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_airport_page_booking_easies",
+  "info": {
+    "displayName": "BookingEasy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "primaryText": {
+      "type": "text",
+      "required": true
+    },
+    "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.icon-text",
+      "required": true
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "iconCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-card"
+    }
+  }
+}

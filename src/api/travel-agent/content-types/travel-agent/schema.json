@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "travel_agents",
+  "info": {
+    "singularName": "travel-agent",
+    "pluralName": "travel-agents",
+    "displayName": "TravelAgent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "travelHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.travel-hero"
+    },
+    "ourNetwork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.what-we-do"
+    },
+    "useLuxy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.use-luxy"
+    },
+    "joinLuxy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.join-luxy"
+    },
+    "appPortal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.app-portal"
+    },
+    "joinTravelProgram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.earn-more"
+    },
+    "earningEase": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.earning-ease"
+    },
+    "readAboutCases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.read-about-cases"
+    },
+    "useLuxyToday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.use-luxy-today"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_supplier_section_support_locals",
+  "info": {
+    "displayName": "SupportLocal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-card"
+    }
+  }
+}

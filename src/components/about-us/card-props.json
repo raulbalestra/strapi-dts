@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_us_card_props",
+  "info": {
+    "displayName": "CardProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "teamImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

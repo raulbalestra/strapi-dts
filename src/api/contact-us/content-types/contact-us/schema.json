@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "ContactUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "ContactUsMap": {
+      "displayName": "ContactUsMap",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.contact-us-map"
+    },
+    "SocialMedia": {
+      "displayName": "SocialMedia",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.social-media"
+    },
+    "OurApplication": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.social-media"
+    },
+    "NeedHelp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

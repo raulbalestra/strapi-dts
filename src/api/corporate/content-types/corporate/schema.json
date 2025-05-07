@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "corporates",
+  "info": {
+    "singularName": "corporate",
+    "pluralName": "corporates",
+    "displayName": "Corporate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "corporateHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corporate-section.corporate-hero"
+    },
+    "useLuxyCorporate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corporate-section.use-luxy"
+    },
+    "corporateConcierge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corporate-section.corporate-concierge"
+    },
+    "corporateTestimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.testimonials-reviews"
+    },
+    "ourProductEveryone": {
+      "displayName": "Our Product",
+      "type": "component",
+      "repeatable": false,
+      "component": "corporate-section.our-product"
+    },
+    "esgCompliance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corporate-section.esg-compliance"
+    },
+    "readAboutCases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.read-about-cases"
+    },
+    "useLuxyToday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.use-luxy-today"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

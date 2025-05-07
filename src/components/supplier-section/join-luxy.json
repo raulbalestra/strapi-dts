@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_supplier_section_join_luxys",
+  "info": {
+    "displayName": "JoinLuxy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.supplier-card"
+    }
+  }
+}

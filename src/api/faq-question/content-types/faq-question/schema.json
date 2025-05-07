@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_questions",
+  "info": {
+    "singularName": "faq-question",
+    "pluralName": "faq-questions",
+    "displayName": "FaqQuestion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdentifyKey": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "faqData": {
+      "displayName": "FaqDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq-detail"
+    }
+  }
+}

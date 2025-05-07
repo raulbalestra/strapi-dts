@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_sections_airport_heroes",
+  "info": {
+    "displayName": "AirportHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "primaryText": {
+      "type": "string",
+      "required": true
+    },
+    "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cyclicText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text",
+      "required": true
+    },
+    "notificationCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "assets.icon-text",
+      "required": true
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "secondaryButtons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    }
+  }
+}

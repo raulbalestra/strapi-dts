@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_read_about_cases",
+  "info": {
+    "displayName": "ReadAboutCases"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}

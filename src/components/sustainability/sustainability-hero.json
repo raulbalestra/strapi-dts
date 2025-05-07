@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_sustainability_sustainability_heroes",
+  "info": {
+    "displayName": "SustainabilityHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "barCard": {
+      "displayName": "barCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "assets.bar-card"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "barHeight": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "valueTitle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    }
+  }
+}

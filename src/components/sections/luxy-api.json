@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_luxy_apis",
+  "info": {
+    "displayName": "LuxyApi",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ctas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    }
+  }
+}

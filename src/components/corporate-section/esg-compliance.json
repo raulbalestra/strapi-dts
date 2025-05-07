@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_corporate_section_esg_compliance",
+  "info": {
+    "displayName": "esgCompliance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "informationCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.information-card"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-text-card"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_use_luxy_todays",
+  "info": {
+    "displayName": "UseLuxyToday"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "listitems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.icon-text"
+    }
+  }
+}

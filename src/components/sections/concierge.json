@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_concierges",
+  "info": {
+    "displayName": "Concierge",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.concierge-card"
+    }
+  }
+}

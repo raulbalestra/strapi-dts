@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_mobile_app_and_contacts",
+  "info": {
+    "displayName": "MobileAppContact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    }
+  }
+}

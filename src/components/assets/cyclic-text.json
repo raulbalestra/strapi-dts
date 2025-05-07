@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_assets_cyclic_texts",
+  "info": {
+    "displayName": "CyclicText"
+  },
+  "options": {},
+  "attributes": {
+    "txt": {
+      "type": "string"
+    }
+  }
+}

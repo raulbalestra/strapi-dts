@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CareerHero": {
+      "displayName": "CareerHero",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.career-hero"
+    },
+    "ourStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.our-story"
+    },
+    "perk": {
+      "displayName": "Perks",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.perks"
+    },
+    "openRoles": {
+      "displayName": "OpenRoles",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.open-roles"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    }
+  }
+}

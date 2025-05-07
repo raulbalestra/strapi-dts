@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_sections_best_services",
+  "info": {
+    "displayName": "BestService",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.text-card"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "secondaryCardSubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCardHeading": {
+      "type": "string",
+      "required": true
+    },
+    "secondaryCardPrimaryText": {
+      "type": "string"
+    },
+    "videoSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "secondaryCardDesktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "secondaryCardMobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

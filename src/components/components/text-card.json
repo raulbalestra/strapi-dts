@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_text_cards",
+  "info": {
+    "displayName": "TextCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "primaryText": {
+      "type": "text",
+      "required": true
+    },
+    "smallText": {
+      "type": "string"
+    }
+  }
+}

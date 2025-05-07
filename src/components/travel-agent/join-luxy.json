@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_travel_agent_join_luxies",
+  "info": {
+    "displayName": "JoinLuxy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.img-txt-card"
+    }
+  }
+}

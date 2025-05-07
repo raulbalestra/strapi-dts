@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_corporate_section_use_luxy",
+  "info": {
+    "displayName": "UseLuxy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-card"
+    },
+    "additionalCardHeading": {
+      "type": "string"
+    },
+    "additionalCardPrimaryImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "additionalCardPrimaryText": {
+      "type": "string"
+    },
+    "additionalCardSubTitle": {
+      "type": "string"
+    }
+  }
+}

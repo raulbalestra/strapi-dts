@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blog_page_recent_articles",
+  "info": {
+    "displayName": "RecentArticle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "blogCard": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "pagination": {
+      "type": "string"
+    }
+  }
+}

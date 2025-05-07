@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_our_verticals",
+  "info": {
+    "displayName": "OurVerticals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::slide.slide"
+    }
+  }
+}

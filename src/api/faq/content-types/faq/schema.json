@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faqHero": {
+      "displayName": "FaqHero",
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.faq-hero"
+    },
+    "askedQuestion": {
+      "displayName": "AskedQuestion",
+      "type": "component",
+      "repeatable": false,
+      "component": "faq.asked-question"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

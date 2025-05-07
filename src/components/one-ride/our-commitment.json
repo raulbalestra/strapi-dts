@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_luxy_academy_our_commitments",
+  "info": {
+    "displayName": "OurCommitment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    }
+  }
+}

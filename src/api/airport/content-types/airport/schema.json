@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airports",
+  "info": {
+    "singularName": "airport",
+    "pluralName": "airports",
+    "displayName": "Airport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "airport",
+        "city"
+      ]
+    },
+    "airportHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "airport-page.airport-hero"
+    },
+    "bookingEasy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "airport-page.booking-easy"
+    },
+    "googleReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "airport-page.google-reviews"
+    },
+    "bestService": {
+      "type": "component",
+      "repeatable": false,
+      "component": "airport-page.best-service"
+    },
+    "servingAround": {
+      "type": "component",
+      "repeatable": false,
+      "component": "airport-page.serving-around"
+    },
+    "readAboutCases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.read-about-cases"
+    },
+    "needHelp": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "travelTheBestCity": {
+      "displayName": "TravelAgent",
+      "type": "component",
+      "repeatable": false,
+      "component": "airport-page.travel-agent"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

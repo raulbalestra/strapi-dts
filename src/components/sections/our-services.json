@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_our_services",
+  "info": {
+    "displayName": "OurServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "card": {
+      "displayName": "ImageCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-card"
+    }
+  }
+}

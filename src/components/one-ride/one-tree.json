@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_luxy_academy_one_trees",
+  "info": {
+    "displayName": "OneTree",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "treeCount": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_travel_agent_app_portals",
+  "info": {
+    "displayName": "AppPortal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.app-and-portal-card"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sustainability_putting_perspectives",
+  "info": {
+    "displayName": "PuttingPerspective",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "smallText": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "content": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::perspective-tab.perspective-tab"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy_videos",
+  "info": {
+    "singularName": "academy-video",
+    "pluralName": "academy-videos",
+    "displayName": "AcademyVideo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::academy-tag.academy-tag"
+    },
+    "videoSrc": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

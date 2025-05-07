@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_about_heroes",
+  "info": {
+    "displayName": "AboutHero"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

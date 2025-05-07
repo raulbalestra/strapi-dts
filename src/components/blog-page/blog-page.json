@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blog_page_blog_pages",
+  "info": {
+    "displayName": "BlogPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "string"
+    },
+    "selectLabel": {
+      "type": "string"
+    },
+    "featureCard": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog"
+    },
+    "blogCards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}

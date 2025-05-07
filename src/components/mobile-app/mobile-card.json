@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_mobile_app_mobile_cards",
+  "info": {
+    "displayName": "MobileCard"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "cardHeading": {
+      "type": "text"
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

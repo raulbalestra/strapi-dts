@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_what_we_dos",
+  "info": {
+    "displayName": "WhatWeDo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.list"
+    }
+  }
+}

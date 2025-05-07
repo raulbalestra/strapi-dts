@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_home_heroes",
+  "info": {
+    "displayName": "HomeHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.hero-card"
+    },
+    "cyclicText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_city_section_city_sections",
+  "info": {
+    "displayName": "BookingEasy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "primaryText": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.notification-card",
+      "required": true
+    },
+    "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "iconCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-card"
+    },
+    "cardsPostion": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "required": true,
+      "default": "Left"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_apps",
+  "info": {
+    "singularName": "mobile-app",
+    "pluralName": "mobile-apps",
+    "displayName": "MobileApp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "mobileHero": {
+      "displayName": "MobileHero",
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile-app.mobile-hero"
+    },
+    "mobileContent": {
+      "displayName": "MobileCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "mobile-app.mobile-card"
+    },
+    "signupLetter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-page.signup-letter"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

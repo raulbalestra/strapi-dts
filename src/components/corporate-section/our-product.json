@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corporate_section_our_product",
+  "info": {
+    "displayName": "OurProduct",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "tabs": {
+      "displayName": "OurProductcard",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.our-product-card"
+    }
+  }
+}

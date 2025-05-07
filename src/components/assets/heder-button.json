@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_assets_heder_buttons",
+  "info": {
+    "displayName": "HederButton"
+  },
+  "options": {},
+  "attributes": {
+    "ctas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blog_page_signup_letters",
+  "info": {
+    "displayName": "SignupLetter"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "string"
+    }
+  }
+}

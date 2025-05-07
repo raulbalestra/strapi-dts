@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_location_cards",
+  "info": {
+    "displayName": "LocationCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": "Define global settings"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "headerNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.header-link"
+    },
+    "headerButton": {
+      "displayName": "Heder Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "assets.heder-button"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.footer"
+    }
+  }
+}

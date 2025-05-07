@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "concierge_cards",
+  "info": {
+    "singularName": "concierge-card",
+    "pluralName": "concierge-cards",
+    "displayName": "Concierge card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

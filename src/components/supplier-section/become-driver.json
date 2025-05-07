@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_supplier_section_become_drivers",
+  "info": {
+    "displayName": "BecomeDriver",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card": {
+      "displayName": "VehicleCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "supplier-section.vehicle-card"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_us_our_teams",
+  "info": {
+    "displayName": "OurTeam",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.card-props"
+    }
+  }
+}

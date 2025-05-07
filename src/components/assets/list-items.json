@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_assets_list_items",
+  "info": {
+    "displayName": "listItems"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "enumeration",
+      "enum": [
+        "CheckMarkIcon"
+      ]
+    },
+    "primaryText": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

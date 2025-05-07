@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "sustainabilities",
+  "info": {
+    "singularName": "sustainability",
+    "pluralName": "sustainabilities",
+    "displayName": "Sustainability",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sustainabilityHero": {
+      "displayName": "SustainabilityHero",
+      "type": "component",
+      "repeatable": false,
+      "component": "sustainability.sustainability-hero"
+    },
+    "issueWeTackle": {
+      "displayName": "IssueWeTackle",
+      "type": "component",
+      "repeatable": false,
+      "component": "sustainability.issue-we-tackle"
+    },
+    "focusEnvironment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "supplier-section.focus-environment"
+    },
+    "puttingIntoPerspective": {
+      "displayName": "PuttingPerspective",
+      "type": "component",
+      "repeatable": false,
+      "component": "sustainability.putting-perspective"
+    },
+    "ourSustainableTravel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-agent.join-luxy"
+    },
+    "savingEarth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.saving-earth"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

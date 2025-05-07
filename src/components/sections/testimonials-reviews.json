@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_testimonials_reviews",
+  "info": {
+    "displayName": "TestimonialsReviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "card": {
+      "displayName": "Testimonial Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.testimonial-card"
+    }
+  }
+}

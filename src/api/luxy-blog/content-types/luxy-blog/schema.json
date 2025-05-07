@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "luxy_blogs",
+  "info": {
+    "singularName": "luxy-blog",
+    "pluralName": "luxy-blogs",
+    "displayName": "LuxyBlog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string"
+    },
+    "blogHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-page.blog-page"
+    },
+    "recentArticle": {
+      "displayName": "RecentArticle",
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-page.recent-article"
+    },
+    "signupLetter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-page.signup-letter"
+    },
+    "mobileContact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.mobile-app-and-contact"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_travel_agent_travel_heroes",
+  "info": {
+    "displayName": "TravelHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string"
+    },
+    "cyclicText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "sectionDescription": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cta.cta"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "assets.icon-text"
+    },
+    "informationcard": {
+      "displayName": "infoCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.info-card"
+    }
+  }
+}

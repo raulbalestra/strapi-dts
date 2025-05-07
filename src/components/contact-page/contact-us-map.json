@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_contact_page_contact_us_maps",
+  "info": {
+    "displayName": "ContactUsMap"
+  },
+  "options": {},
+  "attributes": {
+    "apiKey": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "zoom": {
+      "type": "integer"
+    },
+    "center": {
+      "displayName": "double text",
+      "type": "component",
+      "repeatable": false,
+      "component": "assets.double-text"
+    }
+  }
+}

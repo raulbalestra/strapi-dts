@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_airport_page_travel_agents",
+  "info": {
+    "displayName": "TravelAgent"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "listItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.list-items"
+    }
+  }
+}

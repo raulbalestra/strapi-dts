@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_luxy_academy_each_rides",
+  "info": {
+    "displayName": "EachRide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    }
+  }
+}

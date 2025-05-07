@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_career_job_details",
+  "info": {
+    "displayName": "JobDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "paragraph",
+        "bullet"
+      ],
+      "required": true
+    },
+    "primaryText": {
+      "type": "text"
+    },
+    "listItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    }
+  }
+}

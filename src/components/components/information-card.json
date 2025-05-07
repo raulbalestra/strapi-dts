@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_information_cards",
+  "info": {
+    "displayName": "InformationCard"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "string"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta.cta"
+    }
+  }
+}

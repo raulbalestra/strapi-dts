@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_assets_double_texts",
+  "info": {
+    "displayName": "double text"
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "string"
+    }
+  }
+}

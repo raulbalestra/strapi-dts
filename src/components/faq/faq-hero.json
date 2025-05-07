@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_faq_faq_heroes",
+  "info": {
+    "displayName": "FaqHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assets.cyclic-text"
+    },
+    "identifyKey": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}
